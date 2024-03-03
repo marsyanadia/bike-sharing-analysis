@@ -4,7 +4,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 
 # Load dataset
-df = pd.read_csv("bike-sharing-analysis/dashboard/clean_bike_share_data.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/marsyanadia/bike-sharing-analysis/main/dashboard/clean_bike_share_data.csv")
 
 # Set page configuration
 st.set_page_config(
